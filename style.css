@@ -1,22 +1,56 @@
-header, nav {
+header, nav, section, aside, footer {
     padding: 20px;
     margin-bottom: 20px;
-    color: #333;
+    color: #777;
     background: #ebebeb;
 }
 
+header {
+    width: 495px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 495px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 body {
-    font-size: 24px;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
     text-align: center;
 }
 
-section {
+#full {
     float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 495px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
 }
 
 footer {
-    padding: 20px;
-    margin-bottom: 20px;
+    margin: auto;
+    width: 495px;
+    color: #777;
+    background: #ebebeb;
     clear: both;
-    background: #ccc;
 }
