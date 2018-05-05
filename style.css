@@ -1,6 +1,6 @@
 header, nav, section, aside, footer {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
     color: #777;
     background: #ebebeb;
 }
@@ -8,13 +8,13 @@ header, nav, section, aside, footer {
 header {
     width: 495px;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 nav {
     width: 495px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding: 25px;
 }
 
 body {
@@ -28,18 +28,21 @@ body {
 
 #full {
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 aside {
     width: 495px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    height: 150px;
 }
 
 article {
     color: #ebebeb;
+    padding: 25px;
     background: #777;
+    margin-bottom:
 }
 
 h1, p {
@@ -47,8 +50,14 @@ h1, p {
     background: #ebebeb;
 }
 
+headings {
+    background: #777;
+    color: #ebebeb;
+}
+
 footer {
     margin: auto;
+    padding: 25px;
     width: 495px;
     color: #777;
     background: #ebebeb;
