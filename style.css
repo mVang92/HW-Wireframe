@@ -1,6 +1,4 @@
-header, nav, section, aside, footer {
-    padding: 15px;
-    margin-bottom: 15px;
+header, nav, section, aside, p, footer {
     color: #777;
     background: #ebebeb;
 }
@@ -8,6 +6,8 @@ header, nav, section, aside, footer {
 header {
     width: 495px;
     margin: auto;
+    margin-bottom: 15px;
+    padding: 25px;
 }
 
 nav {
@@ -35,19 +35,20 @@ aside {
     width: 495px;
     margin: auto;
     margin-bottom: 15px;
-    height: 150px;
+    height: 200px;
+    padding: 25px;
 }
 
 article {
     color: #ebebeb;
     padding: 25px;
     background: #777;
-    margin-bottom:
+    margin-bottom: 15px;
 }
 
-h1, p {
-    color: #777;
-    background: #ebebeb;
+p {
+    background: #777;
+    color: #ebebeb;
 }
 
 headings {
@@ -56,10 +57,8 @@ headings {
 }
 
 footer {
+    width: 495px;
     margin: auto;
     padding: 25px;
-    width: 495px;
-    color: #777;
-    background: #ebebeb;
     clear: both;
 }
