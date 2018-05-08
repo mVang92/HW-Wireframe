@@ -1,4 +1,4 @@
-header, nav, section, aside, p, footer {
+header, nav, section, aside, h1, p, footer {
     color: #777;
     background: #ebebeb;
 }
@@ -25,18 +25,19 @@ body {
     font-size: 18px;
     text-align: center;
 }
-
-#full {
-    float: left;
+section {
     margin-bottom: 15px;
+    width: 250px;
+    padding: 25px;
 }
 
 aside {
-    width: 495px;
-    margin: auto;
+    float: right;
+    width: 300px;
     margin-bottom: 15px;
     height: 200px;
     padding: 25px;
+    margin-left: 15px;
 }
 
 article {
@@ -44,16 +45,7 @@ article {
     padding: 25px;
     background: #777;
     margin-bottom: 15px;
-}
-
-p {
-    background: #777;
-    color: #ebebeb;
-}
-
-headings {
-    background: #777;
-    color: #ebebeb;
+    width: 200px;
 }
 
 footer {
