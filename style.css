@@ -3,6 +3,10 @@ header, nav, section, aside, h1, p, footer {
     background: #ebebeb;
 }
 
+h1, p {
+    padding: 5px;
+}
+
 header {
     width: 495px;
     margin: auto;
@@ -26,14 +30,18 @@ body {
     text-align: center;
 }
 section {
-    margin-bottom: 15px;
-    width: 250px;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 208px;
     padding: 25px;
+    width: 250px;
+    height: 200px;
 }
 
 aside {
-    float: right;
-    width: 300px;
+    float: left;
+    width: 180px;
     margin-bottom: 15px;
     height: 200px;
     padding: 25px;
@@ -42,10 +50,12 @@ aside {
 
 article {
     color: #ebebeb;
+    background: #777;    
     padding: 25px;
-    background: #777;
+    margin-top: 15px;
     margin-bottom: 15px;
     width: 200px;
+    height: 120px;
 }
 
 footer {
